@@ -22,7 +22,7 @@ Zuerst sollte eine virtuelle Umgebung installiert sein. VirtualBox ist ein koste
 Die virtuelle Maschine muss über 1 Prozessorkern verfügen, da es damals noch keine Multitore-Prozessoren gab. Es sollten mindestens 64 Megabyte Arbeitsspeicher zur Verfügung gestellt werden, für das Tutorial verwenden wir 128 Megabyte. Das System benötigt eine per IDE angebundene Festplatte als Primary Master und ein optisches Laufwerk als Primary Slave. Zudem wird ein Diskettenlaufwerk benötigt. Als Größe der Festplatte werden 2 GB angegeben.
 
 
-![VM Setup](/images/Bildschirmfoto 2019-10-27 um 22.48.27.png)
+![VM Setup](/images/image1.png)
 
 Ist die virtuelle Maschine aufgesetzt, so benötigen wir nur noch die entsprechenden Dateien:
 
