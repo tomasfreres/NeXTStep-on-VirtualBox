@@ -15,6 +15,13 @@ VirtualBox auf Windows mittels Chocolatey installieren:
 `choco install virtualbox`
 
 
+| Download      |
+| ------------- |
+|[Benötigte Dateien](https://github.com/tomasfreres/NeXTStep-on-VirtualBox/releases/tag/1.0)|
+
+
+
+
 ## VirtualBox
 
 Zuerst sollte eine virtuelle Umgebung installiert sein. VirtualBox ist ein kostenloses Tool, welches für dieses Tutorial auch genutzt wird. VirtualBox ist sowohl für Windows, macOS als auch Linux-basierte Betriebssysteme verfügbar.
