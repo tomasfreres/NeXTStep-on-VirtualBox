@@ -5,12 +5,6 @@ Wer sich ein wenig mit Computergeschichte auseinandersetzt, der wird wohl oder �
 
 Zudem wurde NeXTSTEP, zu dem Zeitpunkt OpenStep genannt, nach der Übernahme von NeXT durch Apple Basis für die Neuentwicklung MacOS X. Die OpenStep-API wurde zu Cocoa, welches bis Heute die Basis für  die meisten macOS- und iOS-Apps bildet. Folgende Anleitung zeigt nun, welche Schritt zur Installation in einer virtuellen Umgebung wie VirtualBox nötig sind:
 
-## VirtualBox
-
-Zuerst sollte eine virtuelle Umgebung installiert sein. VirtualBox ist ein kostenloses Tool, welches für dieses Tutorial auch genutzt wird. VirtualBox ist sowohl für Windows, macOS als auch Linux-basierte Betriebssysteme verfügbar. 
-
-Die virtuelle Maschine muss über 1 Prozessorkern verfügen, da es damals noch keine Multitore-Prozessoren gab. Es sollten mindestens 64 Megabyte Arbeitsspeicher zur Verfügung gestellt werden, für das Tutorial verwenden wir 128 Megabyte. Das System benötigt eine per IDE angebundene Festplatte als Primary Master und ein optisches Laufwerk als Primary Slave. Zudem wird ein Diskettenlaufwerk benötigt. Als Größe der Festplatte werden 2 GB angegeben. 
-
 VirtualBox auf macOS mittels Homebrew installieren:
 `brew cask install virtualbox`
 
@@ -20,6 +14,15 @@ VirtualBox auf Linux mittels apt-get installieren:
 VirtualBox auf Windows mittels Chocolatey installieren:
 `choco install virtualbox`
 
+
+## VirtualBox
+
+Zuerst sollte eine virtuelle Umgebung installiert sein. VirtualBox ist ein kostenloses Tool, welches für dieses Tutorial auch genutzt wird. VirtualBox ist sowohl für Windows, macOS als auch Linux-basierte Betriebssysteme verfügbar.
+
+Die virtuelle Maschine muss über 1 Prozessorkern verfügen, da es damals noch keine Multitore-Prozessoren gab. Es sollten mindestens 64 Megabyte Arbeitsspeicher zur Verfügung gestellt werden, für das Tutorial verwenden wir 128 Megabyte. Das System benötigt eine per IDE angebundene Festplatte als Primary Master und ein optisches Laufwerk als Primary Slave. Zudem wird ein Diskettenlaufwerk benötigt. Als Größe der Festplatte werden 2 GB angegeben.
+
+
+![VM Setup](/images/Bildschirmfoto 2019-10-27 um 22.48.27.png)
 
 Ist die virtuelle Maschine aufgesetzt, so benötigen wir nur noch die entsprechenden Dateien:
 
